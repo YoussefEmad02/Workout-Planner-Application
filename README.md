@@ -1,16 +1,24 @@
-# workout_planner_application
+# Workout Planner Application
 
-A new Flutter project.
+## App Description
+A workout tracking app that helps users plan, log, and review their fitness routines. Users can log in, add workout plans, and track progress. The app integrates **Firebase Firestore** for storing workout data and **Firebase Authentication** for secure user access.
 
-## Getting Started
+## Key Screens
 
-This project is a starting point for a Flutter application.
+### 1. Login/Sign-Up Screens
+- Enables users to log in or sign up using **Firebase Authentication**.
 
-A few resources to get you started if this is your first Flutter project:
+### 2. Workout Plan Screens
+- Allows users to:
+  - Create and edit workout plans.
+  - Add details such as:
+    - Exercise name
+    - Sets
+    - Reps
+    - Duration
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 3. Workout History Screen
+- Displays completed and upcoming workouts.
+- Includes options for:
+  - **Sorting** workouts.
+  - **Filtering** based on user preferences.
